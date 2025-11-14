@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #f3e7ff, #d9e4ff, #c1f0ff);
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-card {
+    width: 350px;
+    border-radius: 20px;
+    background: #ffffffc7;
+    backdrop-filter: blur(10px);
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.social-links a {
+    font-size: 1.6rem;
+    color: #333;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #6a00f4;
+    transform: scale(1.2);
+}
